@@ -136,6 +136,15 @@
         width: 100%;
     }
 
+    .item-servicos {
+        margin-bottom: 2em;
+        margin-left: 2em;
+    }
+
+    .lista-servicos{
+        margin: 0;
+    }
+
     .conta {
         display: block;
 
@@ -155,6 +164,30 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .banner__titulo, .conta__titulo, .servicos__titulo, .beneficios__titulo {
+        font-size: 24px;
+    }
+
+    .lista-servicos{
+        margin: 0;
+    }
+
+    .servicos__titulo {
+        margin-bottom: 0;
+    }
+
+    .item-servicos {
+        margin-top: 2em;
+    }
+
+    .item-servicos__titulo {
+        font-size: 18px;
+    }
+
+    .banner__titulo {
+        width: 80%;
+    }
     
     .banner {
         background-image: url("../../img/banner-cliente-celular.png");
@@ -162,5 +195,9 @@
 
     .conta {
         background-image: url("../../img/banner-gato-celular.png");
+    }
+
+    .conta__botao {
+        font-size: 14px;
     }
 }
