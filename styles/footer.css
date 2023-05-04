@@ -45,11 +45,30 @@
 
 @media screen and (max-width: 798px) {
     .rodape {
-        display: block;
-        padding: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 3em;
     }
 
+    .rodape__lista {
+        padding: 1em 2em 0 0;
+    }
+    
+    .rodape__titulo {
+        padding-top: 1.5em;
+    }
+
+    .rodape__logo {
+        padding-top: 1em;
+    }
     .redes-sociais__lista {
-        display: block;
+        display: flex;
+        justify-content:start;
+    
+    }
+
+    .rodape__lista li {
+        padding-left: 0.75em;
     }
 }
