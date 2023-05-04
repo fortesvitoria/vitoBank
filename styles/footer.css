@@ -31,13 +31,16 @@
 }
 
 .rodape__logo {
-    margin-top: .6em;
+    font-family: var(--fonte-logo);
     font-size: 28px;
-    line-height: 36px;
+    font-weight: 700;
+    color: var(--cor-primaria);
 }
 
-.rodape__logo--negrito {
-    font-weight: 700;
+.rodape__logo--italico {
+    font-weight: 600;
+    font-style: italic;
+    color: var(--cor-secundaria);
 }
 
 @media screen and (max-width: 798px) {
