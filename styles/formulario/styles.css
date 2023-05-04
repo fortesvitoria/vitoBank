@@ -160,3 +160,14 @@
         margin: 2em;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    .banner__titulo {
+        width: 80%;
+    }
+
+    .banner__titulo , .formulario__titulo-texto {
+        font-size: 24px;
+    }
+}
