@@ -144,4 +144,23 @@
     .conta__titulo {
         padding: 1em 0;
     }
+
+    .banner {
+        background-image: url("../../img/banner-cliente-ipad.png");
+    }
+
+    .conta {
+        background-image: url("../../img/banner-gato-ipad.png");
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .banner {
+        background-image: url("../../img/banner-cliente-celular.png");
+    }
+
+    .conta {
+        background-image: url("../../img/banner-gato-celular.png");
+    }
 }
