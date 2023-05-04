@@ -72,3 +72,10 @@
         padding-left: 0.75em;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .rodape__link {
+        font-size: 14px;
+    }
+}

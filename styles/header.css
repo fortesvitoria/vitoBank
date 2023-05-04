@@ -49,7 +49,7 @@
 .cabecalho-lista__item-botao {
     font-weight: 600;
     border-radius: 20px;
-    padding: .5em 1em;
+    padding: 0.5em 1em;
     color: var(--cor-primaria);
     border: var(--cor-primaria) 2px solid;
 }
@@ -71,5 +71,14 @@
 
     .cabecalho-lista__item-botao {
         display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .cabecalho-lista__item-botao {
+       
+        font-size: 14px;
+        margin: 0.2em;
     }
 }
